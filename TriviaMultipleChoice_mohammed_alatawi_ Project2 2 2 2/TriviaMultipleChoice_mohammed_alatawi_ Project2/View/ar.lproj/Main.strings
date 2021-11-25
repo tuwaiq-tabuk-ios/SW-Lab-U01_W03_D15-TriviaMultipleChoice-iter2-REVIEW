@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Score :"; ObjectID = "2nT-co-RSA"; */
+"2nT-co-RSA.text" = "درجات :";
+
+/* Class = "UILabel"; text = "Welcome to my simple application."; ObjectID = "8YN-HA-jtA"; */
+"8YN-HA-jtA.text" = "مرحبًا بك في تطبيقي.";
+
+/* Class = "UIButton"; normalTitle = "choiceD"; ObjectID = "G8A-QM-x6W"; */
+"G8A-QM-x6W.normalTitle" = "اختيار د";
+
+/* Class = "UIButton"; normalTitle = "choiceC"; ObjectID = "LxR-Tw-Cjt"; */
+"LxR-Tw-Cjt.normalTitle" = "اختيار ج";
+
+/* Class = "UILabel"; text = "question"; ObjectID = "MnH-Q6-sz4"; */
+"MnH-Q6-sz4.text" = "سؤال";
+
+/* Class = "UITextField"; placeholder = "ID User Naem"; ObjectID = "Tg7-Sn-gnr"; */
+"Tg7-Sn-gnr.placeholder" = "معرف اسم المستخدم";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "aG4-go-4z7"; */
+"aG4-go-4z7.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UIButton"; normalTitle = "choiceA"; ObjectID = "itx-EB-vaJ"; */
+"itx-EB-vaJ.normalTitle" = "اختيار أ";
+
+/* Class = "UIButton"; normalTitle = "choiceB"; ObjectID = "qc5-bS-XWz"; */
+"qc5-bS-XWz.normalTitle" = "اختيار ب";
