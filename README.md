@@ -29,5 +29,13 @@
 2. The TriviaMultipleChoice App has the same behavior as the TriviaSingleChoice App, but instead of the user giving a positive or negative response, they will have to choose between 4 responses.
 3. Present the Layout and add components
 
+
+
+
+https://user-images.githubusercontent.com/91871792/143453485-4e78a180-66e8-4bc8-a001-4de689117847.mp4
+
+
+
+
 ## Deadline
 Thursday 25th November 5:00 pm
