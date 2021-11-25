@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		203A0A3F2743BDE90059B9B2 /* Buzzer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 203A0A3E2743BDE90059B9B2 /* Buzzer.mp3 */; };
+		203A0A412743BEE40059B9B2 /* clapping.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 203A0A402743BEE40059B9B2 /* clapping.mp3 */; };
+		20DC3CCC27439BB4005FB202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DC3CCB27439BB4005FB202 /* AppDelegate.swift */; };
+		20DC3CCE27439BB4005FB202 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DC3CCD27439BB4005FB202 /* SceneDelegate.swift */; };
+		20DC3CD027439BB4005FB202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DC3CCF27439BB4005FB202 /* ViewController.swift */; };
+		20DC3CD527439BB4005FB202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20DC3CD427439BB4005FB202 /* Assets.xcassets */; };
+		20DC3CD827439BB4005FB202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DC3CD627439BB4005FB202 /* LaunchScreen.storyboard */; };
+		20DC3CE127439C8A005FB202 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DC3CE027439C8A005FB202 /* Question.swift */; };
+		20DC3CE327439CC3005FB202 /* QuestionBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DC3CE227439CC3005FB202 /* QuestionBrain.swift */; };
+		20DC3CEF2743A8DF005FB202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DC3CED2743A8DF005FB202 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		203A0A3E2743BDE90059B9B2 /* Buzzer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Buzzer.mp3; sourceTree = "<group>"; };
+		203A0A402743BEE40059B9B2 /* clapping.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clapping.mp3; sourceTree = "<group>"; };
+		20DC3CC827439BB4005FB202 /* TriviaMultipleChoice-Ahmed-Alqhtani-iter3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TriviaMultipleChoice-Ahmed-Alqhtani-iter3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20DC3CCB27439BB4005FB202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20DC3CCD27439BB4005FB202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		20DC3CCF27439BB4005FB202 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20DC3CD427439BB4005FB202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20DC3CD727439BB4005FB202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20DC3CD927439BB4005FB202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20DC3CE027439C8A005FB202 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		20DC3CE227439CC3005FB202 /* QuestionBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBrain.swift; sourceTree = "<group>"; };
+		20DC3CEE2743A8DF005FB202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "TriviaMultipleChoice-Ahmed-Alqhtani-iter3/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20DC3CC527439BB4005FB202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20DC3CBF27439BB4005FB202 = {
+			isa = PBXGroup;
+			children = (
+				20DC3CCA27439BB4005FB202 /* TriviaMultipleChoice-Ahmed-Alqhtani-iter3 */,
+				20DC3CC927439BB4005FB202 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20DC3CC927439BB4005FB202 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20DC3CC827439BB4005FB202 /* TriviaMultipleChoice-Ahmed-Alqhtani-iter3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20DC3CCA27439BB4005FB202 /* TriviaMultipleChoice-Ahmed-Alqhtani-iter3 */ = {
+			isa = PBXGroup;
+			children = (
+				20DC3CE82743A6EE005FB202 /* Delegates */,
+				20DC3CE72743A6BC005FB202 /* Sounds */,
+				20DC3CE62743A6A3005FB202 /* Support Files */,
+				20DC3CE52743A60F005FB202 /* Controllers */,
+				20DC3CE42743A5E7005FB202 /* Views */,
+				20DC3CDF27439C60005FB202 /* models */,
+			);
+			path = "TriviaMultipleChoice-Ahmed-Alqhtani-iter3";
+			sourceTree = "<group>";
+		};
+		20DC3CDF27439C60005FB202 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				20DC3CE027439C8A005FB202 /* Question.swift */,
+				20DC3CE227439CC3005FB202 /* QuestionBrain.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		20DC3CE42743A5E7005FB202 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20DC3CED2743A8DF005FB202 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20DC3CE52743A60F005FB202 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20DC3CCF27439BB4005FB202 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		20DC3CE62743A6A3005FB202 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20DC3CD427439BB4005FB202 /* Assets.xcassets */,
+				20DC3CD627439BB4005FB202 /* LaunchScreen.storyboard */,
+				20DC3CD927439BB4005FB202 /* Info.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		20DC3CE72743A6BC005FB202 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				203A0A402743BEE40059B9B2 /* clapping.mp3 */,
+				203A0A3E2743BDE90059B9B2 /* Buzzer.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		20DC3CE82743A6EE005FB202 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				20DC3CCB27439BB4005FB202 /* AppDelegate.swift */,
+				20DC3CCD27439BB4005FB202 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20DC3CC727439BB4005FB202 /* TriviaMultipleChoice-Ahmed-Alqhtani-iter3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20DC3CDC27439BB4005FB202 /* Build configuration list for PBXNativeTarget "TriviaMultipleChoice-Ahmed-Alqhtani-iter3" */;
+			buildPhases = (
+				20DC3CC427439BB4005FB202 /* Sources */,
+				20DC3CC527439BB4005FB202 /* Frameworks */,
+				20DC3CC627439BB4005FB202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TriviaMultipleChoice-Ahmed-Alqhtani-iter3";
+			productName = "TriviaMultipleChoice-Ahmed-Alqhtani-iter3";
+			productReference = 20DC3CC827439BB4005FB202 /* TriviaMultipleChoice-Ahmed-Alqhtani-iter3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20DC3CC027439BB4005FB202 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					20DC3CC727439BB4005FB202 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 20DC3CC327439BB4005FB202 /* Build configuration list for PBXProject "TriviaMultipleChoice-Ahmed-Alqhtani-iter3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20DC3CBF27439BB4005FB202;
+			productRefGroup = 20DC3CC927439BB4005FB202 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20DC3CC727439BB4005FB202 /* TriviaMultipleChoice-Ahmed-Alqhtani-iter3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20DC3CC627439BB4005FB202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DC3CEF2743A8DF005FB202 /* Main.storyboard in Resources */,
+				20DC3CD827439BB4005FB202 /* LaunchScreen.storyboard in Resources */,
+				203A0A412743BEE40059B9B2 /* clapping.mp3 in Resources */,
+				203A0A3F2743BDE90059B9B2 /* Buzzer.mp3 in Resources */,
+				20DC3CD527439BB4005FB202 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20DC3CC427439BB4005FB202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DC3CD027439BB4005FB202 /* ViewController.swift in Sources */,
+				20DC3CE127439C8A005FB202 /* Question.swift in Sources */,
+				20DC3CCC27439BB4005FB202 /* AppDelegate.swift in Sources */,
+				20DC3CE327439CC3005FB202 /* QuestionBrain.swift in Sources */,
+				20DC3CCE27439BB4005FB202 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20DC3CD627439BB4005FB202 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20DC3CD727439BB4005FB202 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		20DC3CED2743A8DF005FB202 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20DC3CEE2743A8DF005FB202 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20DC3CDA27439BB4005FB202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20DC3CDB27439BB4005FB202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20DC3CDD27439BB4005FB202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G285Z8X9T;
+				INFOPLIST_FILE = "TriviaMultipleChoice-Ahmed-Alqhtani-iter3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmed.TriviaMultipleChoice-Ahmed-Alqhtani-iter3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		20DC3CDE27439BB4005FB202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G285Z8X9T;
+				INFOPLIST_FILE = "TriviaMultipleChoice-Ahmed-Alqhtani-iter3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmed.TriviaMultipleChoice-Ahmed-Alqhtani-iter3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20DC3CC327439BB4005FB202 /* Build configuration list for PBXProject "TriviaMultipleChoice-Ahmed-Alqhtani-iter3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20DC3CDA27439BB4005FB202 /* Debug */,
+				20DC3CDB27439BB4005FB202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20DC3CDC27439BB4005FB202 /* Build configuration list for PBXNativeTarget "TriviaMultipleChoice-Ahmed-Alqhtani-iter3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20DC3CDD27439BB4005FB202 /* Debug */,
+				20DC3CDE27439BB4005FB202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20DC3CC027439BB4005FB202 /* Project object */;
+}
