@@ -1,5 +1,25 @@
 # SW-Lab-U01_W08_D38-TriviaMultipleChoice-iter2-REVIEW
 
+
+
+
+##Pictures
+
+
+
+
+
+<img width="150" alt="Screen Shot 1443-04-20 at 6 14 59 PM" src="https://user-images.githubusercontent.com/91871371/143466205-7a64af6a-5234-463c-b0e8-a01502412d5d.png">
+
+<img width="150" alt="Screen Shot 1443-04-20 at 6 12 11 PM" src="https://user-images.githubusercontent.com/91871371/143466229-f9e8e57d-3402-4dd3-a901-c2f0c252925b.png">
+
+<img width="150" alt="Screen Shot 1443-04-20 at 6 12 35 PM" src="https://user-images.githubusercontent.com/91871371/143466260-e6d81a2f-d34d-4a44-922f-735b91a030fb.png">
+
+<img width="150" alt="Screen Shot 1443-04-20 at 6 13 16 PM" src="https://user-images.githubusercontent.com/91871371/143466268-83f2d839-b8e0-4417-806a-469990ed5388.png">
+
+
+
+
 ## Topics
 1. Auto Layout
 2. The static function Timer.scheduledTimer
