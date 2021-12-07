@@ -49,12 +49,5 @@ class QuestionsTypeVC: UIViewController {
             
         }
     }
-    
-    
-    
-    
-    
-    
-    
 }
 

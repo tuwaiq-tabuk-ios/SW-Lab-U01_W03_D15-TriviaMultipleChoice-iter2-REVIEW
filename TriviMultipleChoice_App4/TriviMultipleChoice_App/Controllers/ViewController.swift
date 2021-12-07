@@ -21,12 +21,11 @@ class ViewController: UIViewController {
     
     //Progress
     @IBOutlet weak var progressBar: UIProgressView!
-    
     @IBOutlet weak var backgroundImage: UIImageView!
     
     //Here we called the question brain from the QuestionBank file
-    var questions:QuestionsBrain = QuestionsBrain()
     var arrName:String?
+    var questions:QuestionsBrain = QuestionsBrain()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,16 +33,24 @@ class ViewController: UIViewController {
         
         
         
-        //If you want to change the wallpaper of particular section you can from here 
+        //If you want to change the wallpaper of particular section you can do it from here just write the name of the picture and make sure you dragged the picture to the "Assets"
+        
+        //This one for History section
         if arrName == "History" {
             questions.quiz = questions.historyArray
             backgroundImage.image = UIImage(named: "Wallpaper")
+            
+            //This one for Sport section
         } else if arrName == "Sport" {
             questions.quiz = questions.sportArray
             backgroundImage.image = UIImage(named: "Wallpaper")
+            
+            //This one for Art section
         } else if arrName == "Art" {
             questions.quiz = questions.artArray
             backgroundImage.image = UIImage(named: "Wallpaper")
+            
+            //This one for Science section
         } else if arrName == "Science" {
             questions.quiz = questions.scienceArray
             backgroundImage.image = UIImage(named: "Wallpaper")
@@ -120,7 +127,7 @@ class ViewController: UIViewController {
         optionFourthButton.setTitle(questions.checkAnswers()[3], for: .normal)
     }
     
-    
+    //This function is to show the user a "GAME OVER" message and give him the score
     func showGameOverMessage(){
         let ab = UIAlertController(title:"GAME OVER!", message: "You have achieved \(questions.getScore()) Score", preferredStyle: .alert)
         ab.addAction(UIAlertAction(title:"Play again",
@@ -129,13 +136,8 @@ class ViewController: UIViewController {
                                     self.questions.reStart()
                                     self.updateUI()
                                    }))
-        
         present(ab, animated: true)
-        
-        
-        
     }
-    
 }
 
 
